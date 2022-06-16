@@ -1,0 +1,10 @@
+name: receiver
+
+on: workflow_dispatch
+
+jobs:
+  receive:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Success
+        run: echo "success!"
